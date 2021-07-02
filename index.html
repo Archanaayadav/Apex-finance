@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" media="screen and (max-width: 768px)" href="/css/mobile.css">
+  <link rel="stylesheet" media="screen and (min-width: 1100px)" href="/css/widescreen.css">
+  <link rel="stylesheet" href="/webfonts/all.css">  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Apex Finance and Investments</title> 
+</head>
+<body id="home">
+  <!-- Navbar -->
+  <nav id="navbar">
+    <h1 class="logo">
+      <span class="text-primary">
+        <i class="fas fa-hand-holding-usd"></i> Apex
+      </span>Finance
+    </h1>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#info">Info</a></li>
+      <li><a href="#who">Founders</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Header showcase -->
+  <header id="showcase">
+    <div class="showcase-content">
+      <h1 class="heading"> 
+        Growing Together
+      </h1>
+      <p class="describe">
+        Here we embrace your dreams of financial growth as we guarantee the worthiness of every money transaction.
+        <br>We ensure more profit and less worries. So join hands with us for your brighter future
+      </p>
+      <a href="#info" class="btn">Know More</a>
+    </div>
+  </header>
+
+  <!-- Info Section -->
+  <section id="info" class="bg-light py-1">
+    <div class="container">
+      <h2 class="heading2 text-center">
+        <span class="text-primary">Information:</span> What we Do
+      </h2>
+      <div class="box">
+        <div class="items">
+          <i class="fas fa-university fa-2x"></i>
+          <div>
+            <h3>Investment Banking</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, autem?</p>
+          </div>
+        </div>
+        <div class="items">
+          <i class="fas fa-book-reader fa-2x"></i>
+          <div>
+            <h3>Portfolio Management</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, autem?</p>
+          </div>
+        </div>
+        <div class="items">
+          <i class="fas fa-pencil-alt fa-2x"></i>
+          <div>
+            <h3>Tax & Custodial</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, autem?</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Founders section -->
+  <section id="who">
+    <div class="image"></div>
+    <div class="content bg-dark p-2">
+      <h2 class="heading2">
+        <Span class="text-primary">Who</Span> We Are
+      </h2>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione earum odio, repudiandae quasi natus enim itaque quidem nemo, eum cupiditate doloremque repellendus dicta at amet ad repellat voluptate sit suscipit?</p>
+      <h3 class="team"> Our Team</h3>
+      <ul class="list">
+        <li>Archana Yadav: CEO</li>
+        <li>Ahaan Roy: CFO</li>
+        <li>Ahana Roy: Lead Accountant </li>
+        <li>Rhea: Investment Manager</li>
+        <li>Aditya Hooda: Senior Accountant</li>
+        <li>Priya Saini: CA</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- clients section -->
+  <section id="clients" class=" bg-light py-1">
+    <h2 class="heading2 text-center">
+      Our <span class="text-primary">Clients</span>
+    </h2>
+    <div class="box py-1">
+      <div><img src="./pics/logo1.png" alt="Clients"></div>
+      <div><img src="./pics/logo2.png" alt="Clients"></div>
+      <div><img src="./pics/logo3.png" alt="Clients"></div>
+      <div><img src="./pics/logo4.png" alt="Clients"></div>
+      <div><img src="./pics/logo5.png" alt="Clients"></div>      
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="contact-form bg-primary p-2">
+      <h2 class="heading2">Contact Us</h2>
+      <p>Please fill the form below to contact us.</p>
+      <form>
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" name="name" id="name" placeholder="Enter your name">
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" placeholder="Enter your email">
+        </div>
+        <div class="form-group">
+          <label for="name">Contact Number</label>
+          <input type="text" name="contact" id="phn no" placeholder="Enter your contact number">
+        </div>
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" name="name" id="name" placeholder="Enter your name">
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea name="message" id="message" placeholder="Drop a message"></textarea>
+        </div>
+        <input type="submit" value="Submit" class="btn btn-dark">
+      </form>
+    </div>
+    <div id="map"></div>
+  </section>
+
+  <footer id="main-footer" class="bg-dark text-center">
+    <div class="container">
+      <p>Copyright &copy; 2021, Apex Finance, All Rights Reserved.</p>
+    </div>    
+  </footer>
+
+  <!-- JQuery CDN : minified latest version (to be put before main js)-->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" 
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+  <!-- Local Js File -->
+  <script src="./js/main.js"></script>
+
+  <!-- Google Maps -->
+  <script
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCMf-C30FjqZlftFQ1F1qRhwHojH1X9c3U&callback=initMap&libraries=&v=weekly"
+  async></script> 
+ 
+</body>
+</html>
+
+<!-- AIzaSyCMf-C30FjqZlftFQ1F1qRhwHojH1X9c3U -->

@@ -1,0 +1,251 @@
+/* for different fonts go to fonts.google.com search the font and import it */
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital@0;1&display=swap');
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  
+}
+
+a{
+  text-decoration: none;
+}
+
+p{
+  padding: 0.75rem 0;
+}
+
+body{
+font-family: 'PT Sans', sans-serif;
+line-height: 1.4;
+}
+
+/* utility classes */
+.container{
+  max-width: 100vh;
+  margin: auto;
+  padding: 0 2 rem;
+  overflow: hidden;
+}
+
+.text-primary{
+  color: #93cb52;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.heading{
+  font-size: 4rem;
+  margin-bottom: 0.4rem;
+  line-height: 1.1;
+  font-style: italic;
+}
+
+.heading2{
+  font-size: 2rem;
+  margin-bottom: 0.4rem;
+  line-height: 1.1;
+}
+
+.py-1{ padding: 1.5rem; }
+.p-2{ padding: 1.5rem; }
+
+.describe{
+  font-size: 1.35rem;
+  margin-bottom: 1.7rem;
+}
+
+.btn{
+  display: inline-block;
+  color: #fff;
+  background: #7ab436;
+  padding: 0.5rem 1.7rem;
+  border-radius: 7px;
+  border: none;
+  font-size: 1.2rem;
+}
+
+.btn:hover{
+  background: #f5a070;
+}
+
+.btn-dark{
+  background: #333;
+  color: #fff;
+}
+
+.bg-light{
+  background: #f4f4f4;
+  color: #333;
+}
+
+.bg-dark{
+  background: #333;
+  color: #fff;
+}
+
+.bg-primary{
+  background: #93cb52;
+  color: #fff;
+}
+.list{
+  margin: 0.5rem 0;
+  list-style: none;
+}
+
+.list li{
+  padding: 0.5rem 0;
+  border-bottom: 1px #444 dotted;
+}
+
+.list li:last-child{
+  border: none;
+}
+
+
+
+
+/* Navbar */
+#navbar{
+  background: #333;
+  color: #fff;
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  z-index: 1; /* prioritized it to remain at top unless some other thing has z-indez=2 or mor */
+  padding: 0.8rem;
+}
+
+#navbar ul{
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+#navbar ul li a{
+  color: #fff;
+  padding: 0.75rem;
+  margin: 0 0.25rem;
+}
+
+#navbar ul li a:hover{
+  background: #93cb52;
+  border-radius: 5px;
+}
+
+/* showcase Header */
+#showcase{
+  background: #333 url('../pics/company.jpg') no-repeat center center/cover;
+  height: 90vh;
+  color: #fff;
+}
+
+#showcase .showcase-content{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 0 2rem;
+  background-color: rgba(0,0,0,0.4);
+}
+
+/* Information section */
+#info .box{
+  display: flex;
+  padding: 1rem;
+}
+
+#info .items{
+  text-align: center;
+  /* flex: 1; */
+  padding: 1rem;
+}
+
+#info .box .items i{
+  background: #93cb52;
+  padding: 1rem;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+
+}
+
+#info .conatiner .headin2 span{
+  color: black;
+}
+
+/* Founder Section */
+#who{
+  display: flex;
+}
+
+#who div{
+  flex: 1;
+}
+
+#who .image{
+  background: url(../pics/founders.jpg) no-repeat center center/cover;
+}
+
+#who .content{
+  text-align: center;
+}
+
+#who .team{
+  padding-top: 1rem;
+}
+
+/* Clients */
+#clients .box{
+  display: flex;
+}
+
+#clients .box img{
+  display: block;
+  margin: auto;
+  width: 60%;
+}
+
+/* Contact */
+#contact{
+  display: flex;
+}
+
+#contact .contact-form{
+  text-align: center;
+}
+#contact .contact-form, #contact #map{
+  flex: 1;
+}
+
+#contact .contact-form .form-group{
+  margin: 0.5rem;
+}
+
+#contact .contact-form .form-group label{
+  display: block;
+  text-align: left;
+  font-size: 20px;
+}
+
+#contact .contact-form .form-group input,
+#contact .contact-form .form-group textarea{
+  width: 100%;
+  padding: 0.5rem;
+}
+
+#contact .heading2{
+  color: #333;
+  margin-bottom: 0;
+}
+
+#contact .contact-form p{
+  font-size: 20px;
+}
+
